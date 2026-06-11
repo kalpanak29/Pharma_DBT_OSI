@@ -1,0 +1,29 @@
+version: 2
+
+models:
+
+  - name: patient_summary
+    description: Patient-centric semantic layer for Pharma analytics
+
+    columns:
+
+      - name: patient_id
+        description: Unique patient identifier
+
+      - name: gender
+        description: Gender of patient
+
+      - name: is_alive
+        description: Patient alive indicator
+
+      - name: total_encounters
+        description: Total patient encounters
+
+      - name: total_medications
+        description: Total medications prescribed
+
+      - name: active_medications
+        description: Active medications count
+
+      - name: total_procedures
+        description: Total procedures performed

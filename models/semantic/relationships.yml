@@ -1,0 +1,13 @@
+relationships:
+
+  - parent: Patient
+    child: Encounter
+    cardinality: 1:N
+
+  - parent: Patient
+    child: Medication
+    cardinality: 1:N
+
+  - parent: Patient
+    child: Procedure
+    cardinality: 1:N

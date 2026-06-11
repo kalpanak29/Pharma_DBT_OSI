@@ -1,0 +1,22 @@
+metrics:
+
+  - name: total_encounters
+    description: Number of patient encounters
+
+  - name: unique_enc_reasons
+    description: Number of unique encounter reasons
+
+  - name: total_medications
+    description: Number of medications prescribed
+
+  - name: unique_medications
+    description: Number of unique medications prescribed
+
+  - name: active_medications
+    description: Number of currently active medications
+
+  - name: total_procedures
+    description: Number of procedures performed
+
+  - name: unique_procedures
+    description: Number of unique procedures performed

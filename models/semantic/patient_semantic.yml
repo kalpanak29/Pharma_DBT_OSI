@@ -1,0 +1,52 @@
+version: 2
+
+semantic_models:
+
+  - name: patient_metrics
+    description: Patient-centric semantic model for Pharma analytics
+
+    model: ref('silver_pharma')
+
+    entities:
+      - name: patient_id
+        type: primary
+
+    dimensions:
+      - name: name
+        type: categorical
+
+      - name: gender
+        type: categorical
+
+      - name: is_alive
+        type: categorical
+
+    measures:
+
+      - name: total_encounters
+        description: Total encounters per patient
+        agg: sum
+
+      - name: unique_enc_reasons
+        description: Unique encounter reasons
+        agg: sum
+
+      - name: total_medications
+        description: Total medications prescribed
+        agg: sum
+
+      - name: unique_medications
+        description: Unique medications prescribed
+        agg: sum
+
+      - name: active_medications
+        description: Active medications count
+        agg: sum
+
+      - name: total_procedures
+        description: Total procedures performed
+        agg: sum
+
+      - name: unique_procedures
+        description: Unique procedures performed
+        agg: sum
