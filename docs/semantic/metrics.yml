@@ -1,29 +1,23 @@
 metrics:
 
   - name: total_encounters
-    label: Total Encounters
     description: Number of patient encounters
 
   - name: unique_enc_reasons
-    label: Unique Encounter Reasons
     description: Number of unique encounter reasons
 
   - name: total_medications
-    label: Total Medications
     description: Number of medications prescribed
 
   - name: unique_medications
-    label: Unique Medications
     description: Number of unique medications prescribed
 
   - name: active_medications
-    label: Active Medications
     description: Number of active medications
 
   - name: total_procedures
-    label: Total Procedures
     description: Number of procedures performed
 
   - name: unique_procedures
-    label: Unique Procedures
     description: Number of unique procedures performed
+
