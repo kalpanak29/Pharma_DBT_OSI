@@ -29,4 +29,3 @@ models:
 
     semantic:
       +enabled: false
-
